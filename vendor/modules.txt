@@ -1,0 +1,7 @@
+# github.com/Azure/go-amqp v0.16.4
+## explicit
+github.com/Azure/go-amqp
+github.com/Azure/go-amqp/internal/bitmap
+github.com/Azure/go-amqp/internal/buffer
+github.com/Azure/go-amqp/internal/encoding
+github.com/Azure/go-amqp/internal/frames
