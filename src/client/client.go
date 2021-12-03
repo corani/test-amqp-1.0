@@ -31,6 +31,10 @@ type Client struct {
 	client  *amqp.Client
 }
 
+func (c *Client) Session() *amqp.Session {
+	return c.session
+}
+
 // Close closes both the client and the session, with a timeout of 5 seconds.
 func (c *Client) Close(ctx context.Context) error {
 	ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
